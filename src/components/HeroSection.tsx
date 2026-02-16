@@ -28,12 +28,16 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 flex max-w-3xl flex-col items-center gap-8 text-center">
+        <span className="animate-fade-in rounded-full border border-white/10 bg-white/5 px-4 py-1.5 font-mono text-xs tracking-wide text-gray-400 opacity-0">
+          PRODUCT-LED AI DEVELOPMENT
+        </span>
+
         <Image
           src="/logo.png"
           alt="PLAID"
           width={1009}
           height={298}
-          className="w-[260px] animate-fade-in opacity-0 sm:w-[340px] md:w-[400px]"
+          className="-mt-2 w-[260px] animate-fade-in opacity-0 sm:w-[340px] md:w-[400px]"
           priority
         />
 
