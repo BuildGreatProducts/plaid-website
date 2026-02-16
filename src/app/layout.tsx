@@ -9,6 +9,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
+  icons: { icon: "/favicon.png" },
   title: "PLAID — Product Led AI Development",
   description:
     "An agent skill that guides founders from idea to buildable spec through a structured conversation.",
