@@ -70,6 +70,62 @@ export default function HeroSection() {
           </svg>
           View on GitHub
         </a>
+
+        <a
+          href="https://skool.com/aiapps"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative flex w-full max-w-xl animate-fade-in-up items-center gap-4 overflow-hidden rounded-xl border border-white/[0.08] bg-white/[0.04] px-5 py-4 text-left opacity-0 transition-all duration-300 [animation-delay:0.8s] hover:border-white/15 hover:bg-white/[0.06]"
+        >
+          {/* Shimmer overlay */}
+          <div className="pointer-events-none absolute inset-0 opacity-0 group-hover:animate-shimmer">
+            <div className="h-full w-[200%] bg-gradient-to-r from-transparent via-white/10 to-transparent skew-x-[-20deg]" />
+          </div>
+
+          {/* Icon */}
+          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-white/[0.08]">
+            <svg
+              className="h-5 w-5 text-white"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.841m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"
+              />
+            </svg>
+          </div>
+
+          {/* Text */}
+          <div className="flex min-w-0 flex-1 flex-col gap-1">
+            <span className="text-base font-semibold text-white">
+              Join 250+ turning app ideas into income
+            </span>
+            <span className="text-sm text-gray-400">
+              Get the playbook to build and monetize any app with AI
+            </span>
+          </div>
+
+          {/* Arrow */}
+          <svg
+            className="h-5 w-5 shrink-0 text-gray-500 transition-all duration-200 group-hover:translate-x-1 group-hover:text-white"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={2}
+            stroke="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </a>
       </div>
     </section>
   );
